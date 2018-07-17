@@ -211,7 +211,7 @@ GameObject:
   - component: {fileID: 114994847042554496}
   m_Layer: 0
   m_Name: Zombie
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1129,7 +1129,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1300611964618398}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 93.76766, y: 0, z: 10.094219}
+  m_LocalPosition: {x: 97.008125, y: 0, z: 25.92116}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4465147877298448}
@@ -1245,7 +1245,7 @@ Animator:
   m_GameObject: {fileID: 1300611964618398}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: fe2eb0b4e90413643a3ddc78c368140f, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 695e526faf90ed944995de9bb9fe9a1b, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -1265,7 +1265,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2d97e752fce19342a4f5a17594aa279, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.08
+  speed: 1
   playerPosition: {fileID: 0}
 --- !u!136 &136261792706422556
 CapsuleCollider:
@@ -1276,10 +1276,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 1.9519396
+  m_Radius: 0.30012226
+  m_Height: 1.8517356
   m_Direction: 1
-  m_Center: {x: 0, y: 0.8374195, z: 0}
+  m_Center: {x: 0, y: 0.8875215, z: 0.27999997}
 --- !u!137 &137039581699937316
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
